@@ -38,9 +38,9 @@ def setup_logger():
 
 def help(update, context):
     update.message.reply_text('Mövcud əmrlər:\n' +
-                              '/basla - Yeni oyun başladmaq\n' +
-                              '/master - Aparıcı olmaq\n' +
-                              '/rating - Qrup üzrə reytinq', reply_to_message_id=True)
+                              '/basla - 🤓Yeni oyun başladmaq\n' +
+                              '/master - 👨🏻‍💻Aparıcı olmaq\n' +
+                              '/rating - ⚕️Qrup üzrə reytinq', reply_to_message_id=True)
 
 
 def button(update, context):
@@ -66,14 +66,14 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="🤓 Məni Guruonuza Əlavə Edin", url="https://t.me/BSsozoyunbot?startgroup=a")
+        addme = InlineKeyboardButton(text="🤓 Məni Gurupnuza Əlavə Edin", url="https://t.me/BSWorldoyunbot?startgroup=a")
         sohbet = InlineKeyboardButton(text="⚕️ Support", url="https://t.me/BLACK_MMC")
         oyun = InlineKeyboardButton(text="🐈 Söhbət Gurupmuz", url="https://t.me/Cat_House_Gurups")
         admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/F_r_o_z_e_d_i")
 
         keyboard = [[addme],[sohbet],[oyun],[admin]]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        update.message.reply_text('🇦🇿Şəxsidə oyun olmaz!', reply_to_message_id=True, reply_markup=reply_markup)
+        update.message.reply_text('🙄 Şəxsidə oyun olmaz!', reply_to_message_id=True, reply_markup=reply_markup)
     else:
         chat_id = update.message.chat.id
         user_id = update.message.from_user.id

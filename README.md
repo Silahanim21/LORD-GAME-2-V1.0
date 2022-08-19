@@ -5,7 +5,7 @@ Söz oyunu. 7000-dən çox söz ilə
 
 # Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/blackinrobotlari/sozoyunbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Teamabasof/LORD-GAME-2-V1.0)
 
 
 # Server

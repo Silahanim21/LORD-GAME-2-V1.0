@@ -66,10 +66,10 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="🤓 Məni Gurupnuza Əlavə Edin", url="https://t.me/BSWorldoyunbot?startgroup=a")
-        sohbet = InlineKeyboardButton(text="⚕️ Support", url="https://t.me/BLACK_MMC")
-        oyun = InlineKeyboardButton(text="🐈 Söhbət Gurupmuz", url="https://t.me/Cat_House_Gurups")
-        admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/F_r_o_z_e_d_i")
+        addme = InlineKeyboardButton(text="🤓 Məni Gurupnuza Əlavə Edin", url="https://t.me/lorddgame_bot?startgroup=a")
+        sohbet = InlineKeyboardButton(text="⚕️ Söhbət Qrupumuz", url="https://t.me/BLACK_MMC")
+        oyun = InlineKeyboardButton(text="⭐ O L D RƏSMMİ", url="https://t.me/oldresmiold")
+        admin = InlineKeyboardButton(text="👨🏻‍💻 Sahib", url="https://t.me/oldteamabasof")
 
         keyboard = [[addme],[sohbet],[oyun],[admin]]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -104,7 +104,7 @@ def set_master(update, context):
 
     game.set_master(update.message.from_user.id)
 
-    show_word_btn = InlineKeyboardButton("👻Sözə bax", callback_data='show_word')
+    show_word_btn = InlineKeyboardButton("👨‍🏫Sözə bax", callback_data='show_word')
     change_word_btn = InlineKeyboardButton("♻️Sözü dəyiş", callback_data='change_word')
 
     keyboard = [[show_word_btn], [change_word_btn]]
